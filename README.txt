@@ -9,6 +9,7 @@ Macros:
 Instalation:
 Install binary fping (apt install fping Ubuntu/Debian)
 Copy file Advanced_ping.sh to /usr/lib/zabbix/externalscripts
+chmod a+x /usr/lib/zabbix/externalscripts/Advanced_ping.sh
 Modify config file /etc/zabbix/zabbix_server.conf , parameter Timeout=30
 Import template Advanced_ping.xml
 Modify the macros in the template according to your requirements
